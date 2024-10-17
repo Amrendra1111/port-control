@@ -39,5 +39,9 @@ def listen_for_commands():
 
 if __name__ == "__main__":
     listen_for_commands()
+## Ensure you have uhubctl installed (sudo apt-get install uhubctl)
+## use command ***sudo uhubctl*** to list the ports of your system
+## or use command (lsusb) to find out the ports
+## change the port and location as per your need
 
 
